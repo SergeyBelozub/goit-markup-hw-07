@@ -20,8 +20,10 @@
     border-radius: 4px;
 }
 
-.content-item__link+.content-item__link {
-    margin-left: var(--item-item-ind);
+.content-item__link {
+    &+& {
+        margin-left: var(--item-item-ind);
+    }
 }
 
 .content-item__title {

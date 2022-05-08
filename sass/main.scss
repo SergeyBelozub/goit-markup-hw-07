@@ -4,16 +4,16 @@
 @import "./reset/reset.scss";
 // section
 
-@import "./header";
-@import "./hero";
-@import "./content-text";
-@import "./picture";
-@import "./clients";
-@import "./team";
-@import "./footer";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/content-text";
+@import "./components/picture";
+@import "./components/clients";
+@import "./components/team";
+@import "./components/footer";
 // bacdrop
-@import "./bacdrop";
-@import "./modal";
+@import "./components/bacdrop";
+@import "./components/modal";
 
 // portfolio
-@import "./portfolio"
+@import "./components/portfolio"

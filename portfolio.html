@@ -28,36 +28,38 @@
       <div class="container">
         <div class="container-nav">
           <a class="logo" href="./"
-            >Web<span class="logo-studio">Studio</span></a
+            >Web<span class="logo__color-black">Studio</span></a
           >
           <nav class="navigation">
-            <ul class="style-nav">
-              <li class="header-item studio">
-                <a href="./index.html" class="link underscore">Студия</a>
+            <ul class="navigation__style">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link">Студия</a>
               </li>
-              <li class="header-item portfolio">
-                <a href="./portfolio.html" class="studio link underscore"
+              <li class="navigation__item">
+                <a
+                  href="./portfolio.html"
+                  class="navigation__link navigation__link-active underscore navigation__underscore-active"
                   >Портфолио</a
                 >
               </li>
-              <li class="contact">
-                <a href="" class="link underscore">Контакты</a>
+              <li class="navigation__item">
+                <a href="" class="navigation__link underscore">Контакты</a>
               </li>
             </ul>
           </nav>
         </div>
         <ul class="style-contact">
-          <li class="header-item">
-            <a href="mailto:info@devstudio.com" class="link"
-              ><svg class="nav-icon-sublink" width="16" height="12">
+          <li class="navigation__item">
+            <a href="mailto:info@devstudio.com" class="navigation__link"
+              ><svg class="navigation__sublink" width="16" height="12">
                 <use href="./images/icons.svg#iconimaile"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-item">
-            <a href="tel:+380961111111" class="link"
-              ><svg class="nav-icon-sublink" width="12" height="16">
+          <li class="navigation__item">
+            <a href="tel:+380961111111" class="navigation__link"
+              ><svg class="navigation__sublink" width="12" height="16">
                 <use href="./images/icons.svg#iconmobil"></use></svg
               >+38 096 111 11 11</a
             >
@@ -285,8 +287,8 @@
       <div class="container footer">
         <div class="conteiner-footer-adress">
           <address class="contact-adress">
-            <a class="logo logo-down" href="./"
-              >Web<span class="logo-studio down">Studio</span></a
+            <a class="logo" href="./"
+              >Web<span class="logo__color-white">Studio</span></a
             >
 
             <ul class="contant-list">
@@ -324,11 +326,11 @@
         <div class="social">
           <p class="social-title">присоединяйтесь</p>
 
-          <ul class="team-icon-item">
-            <li class="team-icon-list">
-              <a href="" class="team-icon-link social-icon-link">
+          <ul class="team-icon__item">
+            <li class="team-icon__list">
+              <a href="" class="team-icon__link social-icon-link">
                 <svg
-                  class="team-icon-sublink social-icon-sublink"
+                  class="team-icon__sublink social-icon-sublink"
                   width="20"
                   height="20"
                 >
@@ -336,10 +338,10 @@
                 </svg>
               </a>
             </li>
-            <li class="team-icon-list">
-              <a href="" class="team-icon-link social-icon-link">
+            <li class="team-icon__list">
+              <a href="" class="team-icon__link social-icon-link">
                 <svg
-                  class="team-icon-sublink social-icon-sublink"
+                  class="team-icon__sublink social-icon-sublink"
                   width="20"
                   height="20"
                 >
@@ -347,10 +349,10 @@
                 </svg>
               </a>
             </li>
-            <li class="team-icon-list">
-              <a href="" class="team-icon-link social-icon-link">
+            <li class="team-icon__list">
+              <a href="" class="team-icon__link social-icon-link">
                 <svg
-                  class="team-icon-sublink social-icon-sublink"
+                  class="team-icon__sublink social-icon-sublink"
                   width="20"
                   height="20"
                 >
@@ -358,10 +360,10 @@
                 </svg>
               </a>
             </li>
-            <li class="team-icon-list">
-              <a href="" class="team-icon-link social-icon-link">
+            <li class="team-icon__list">
+              <a href="" class="team-icon__link social-icon-link">
                 <svg
-                  class="team-icon-sublink social-icon-sublink"
+                  class="team-icon__sublink social-icon-sublink"
                   width="20"
                   height="20"
                 >
@@ -373,7 +375,7 @@
         </div>
         <div class="container-footer-subbmit">
           <p class="footer-subbmit-title">Подпишитесь на рассылку</p>
-          <form class="footer-subbmit-form">
+          <form class="footer-subbmit-form" method="POST">
             <input
               class="footer-subbmit-input"
               type="email"
