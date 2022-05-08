@@ -116,10 +116,24 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #757575;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation__link:hover {
+  color: var(--color-btn);
+}
+
+.navigation__link__color-green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #757575;
+}
+.navigation__link__color-green:hover {
   color: var(--color-btn);
 }
 
