@@ -85,7 +85,7 @@ img {
 }
 
 .navigation .navigation__style,
-.style-contact,
+.style-contact__item,
 .container-nav {
   align-items: center;
   display: flex;
@@ -135,6 +135,10 @@ img {
 }
 .navigation__link__color-green:hover {
   color: var(--color-btn);
+}
+
+.navigation__link__color-green:hover .navigation__sublink {
+  fill: currentColor;
 }
 
 /* подчеркивание */
